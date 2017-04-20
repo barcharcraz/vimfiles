@@ -9,7 +9,7 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin(expand('<sfile>:p:h').'/plugged')
 
 Plug 'easymotion/vim-easymotion'
 Plug 'arakashic/chromatica.nvim'
