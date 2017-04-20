@@ -8,9 +8,15 @@ set expandtab
 set smarttab
 set shiftwidth=4
 set tabstop=4
+" on windows we'll use the 
+if has('windows')
+    let g:python_host_prog = 'c:\python27\python.exe'
+endif
 
 call plug#begin(expand('<sfile>:p:h').'/plugged')
 
+Plug 'scrooloose/nerdcommenter'
+Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'arakashic/chromatica.nvim'
 Plug 'jistr/vim-nerdtree-tabs'
