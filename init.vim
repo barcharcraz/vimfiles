@@ -26,8 +26,11 @@ Plug 'scrooloose/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'valloric/youcompleteme'
 Plug 'ervandew/supertab'
+Plug 'peterhoeg/vim-qml'
+
+
 
 call plug#end()
 
 
-
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
