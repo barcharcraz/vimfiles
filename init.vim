@@ -15,6 +15,7 @@ endif
 
 call plug#begin(expand('<sfile>:p:h').'/plugged')
 
+Plug 'JulioJu/neovim-qt-colors-solarized-truecolor-only'
 Plug 'scrooloose/nerdcommenter'
 Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
