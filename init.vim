@@ -12,7 +12,8 @@ set tabstop=4
 if has('windows')
     let g:python_host_prog = 'c:\python27\python.exe'
 endif
-
+" let g:python3_host_prog = '/usr/bin/python'
+" let g:python_host_prog = '/usr/bin/python2'
 call plug#begin(expand('<sfile>:p:h').'/plugged')
 
 Plug 'scrooloose/nerdcommenter'
