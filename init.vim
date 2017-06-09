@@ -16,7 +16,7 @@ endif
 " let g:python_host_prog = '/usr/bin/python2'
 call plug#begin(expand('<sfile>:p:h').'/plugged')
 
-Plug 'JulioJu/neovim-qt-colors-solarized-truecolor-only'
+Plug 'lifepillar/vim-solarized8'
 Plug 'scrooloose/nerdcommenter'
 Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
@@ -28,7 +28,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'valloric/youcompleteme'
 Plug 'ervandew/supertab'
-Plug 'baabelfish/nvim-nim'
 
 call plug#end()
 
