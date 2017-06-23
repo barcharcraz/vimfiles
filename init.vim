@@ -9,7 +9,7 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 " on windows we'll use the 
-if has('windows')
+if has('win32')
     let g:python_host_prog = 'c:\python27\python.exe'
 endif
 " let g:python3_host_prog = '/usr/bin/python'
