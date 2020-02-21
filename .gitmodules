@@ -1,0 +1,12 @@
+[submodule "pack/vendor/denite.nvim"]
+	path = pack/vendor/start/denite.nvim
+	url = https://github.com/Shougo/denite.nvim.git
+[submodule "pack/vendor/vim-hug-neovim-rpc"]
+	path = pack/vendor/start/vim-hug-neovim-rpc
+	url = https://github.com/roxma/vim-hug-neovim-rpc.git
+[submodule "pack/vendor/nvim-yarp"]
+	path = pack/vendor/start/nvim-yarp
+	url = https://github.com/roxma/nvim-yarp.git
+[submodule "pack/vendor/start/defx.nvim"]
+	path = pack/vendor/start/defx.nvim
+	url = https://github.com/Shougo/defx.nvim.git
